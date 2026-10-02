@@ -56,3 +56,20 @@ console.log("Asignación con módulo:", e);
 let f = 2;
 f **= 3; // f = f ** 3
 console.log("Asignación con exponenciación:", f);
+
+// Operadores de incremento y decremento.
+
+let contador = 0;
+
+contador++;
+console.log("Incremento:", contador); // 1
+
+contador--;
+console.log("Decremento:", contador); // 0
+
+//Valor de Infinity
+console.log(1 / 0);
+console.log(-1 / 0);
+
+// NaN - Not a number
+console.log("NaN:", 0 / 0);
