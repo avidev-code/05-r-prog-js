@@ -30,3 +30,27 @@ Este es el contenido de mi nota
 - Nota 2
 
 `
+
+// Métodos principales en Strings
+
+// Length - Devuelve la cantidad de caracteres de un string
+
+const texto = 'Hola mundo';
+console.log(texto.length);
+
+//Slice(inicio, fin) Extrae la parte de un string y devuelve un nuevo string
+
+const texto1 = 'Javascript es Genial';
+console.log(texto1.slice(0, 10)); //Javascript
+console.log(texto1.slice(11)); //Genial
+console.log(texto1.slice(-6)); //Genial
+
+//Substring(inicio, fin) Extrae la parte de un string y devuelve un nuevo string
+
+const texto2 = 'Hola mundo';
+console.log(texto2.substring(0, 4)); //Hola
+
+// Split(separador) Divide un string en un array de strings
+
+const texto3 = 'Hola mundo';
+console.log(texto3.split(' ')); // ['Hola', 'mundo']
