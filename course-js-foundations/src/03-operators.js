@@ -10,7 +10,7 @@ console.log("Resta:", difference);
 
 // Multiplicación (*)
 const product = 6 * 7; // 42
-console.log("Multiplicación:", product);
+console.log("Multiplicación:", product); //evitemos acentos, y usar las mayúsculas.
 
 // División (/)
 const quotient = 20 / 5; // 4
@@ -24,6 +24,8 @@ console.log("Módulo:", remainder);
 const power = 2 ** 3; // 8
 console.log("Exponenciación:", power);
 
+
+//--------------------------------------------------------------------------------------------------------------------------//
 // Operadores de asignación
 
 //Asignación con suma.
@@ -57,6 +59,8 @@ let f = 2;
 f **= 3; // f = f ** 3
 console.log("Asignación con exponenciación:", f);
 
+
+//--------------------------------------------------------------------------------------------------------------------------//
 // Operadores de incremento y decremento.
 
 let contador = 0;
@@ -67,9 +71,9 @@ console.log("Incremento:", contador); // 1
 contador--;
 console.log("Decremento:", contador); // 0
 
-//Valor de Infinity
-console.log(1 / 0);
-console.log(-1 / 0);
+//Valor de Infinity y -Infinity
+console.log(1 / 0); // Valor infinity
+console.log(-1 / 0); // Valor -infinity
 
-// NaN - Not a number
+// NaN - 'Not a number'
 console.log("NaN:", 0 / 0);
